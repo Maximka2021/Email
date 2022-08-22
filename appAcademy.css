@@ -1,0 +1,32 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 18px;
+}
+
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+    background-color: grey;
+}
+
+.form{
+  width:500px;
+  padding: 6px;
+}
+
+input, textarea{
+  width: 100%;
+  padding: 6px;
+  outline: none;
+  border: none;
+  margin: 6px 0px;
+}
+
+#btn{
+  width: 150px;
+  padding: 6px;
+  cursor: pointer;
+}
